@@ -1,0 +1,22 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class medidas {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		double a, b, c, areaq, area_tri, area_trap; 
+		
+		System.out.printf("AREA DO QUADRADO: ");
+		
+		System.out.printf("AREA DO TRIANGULO: ");
+		
+		System.out.printf("AREA DO TRAPEZIO: ");
+		
+		sc.close();
+	}
+
+}
